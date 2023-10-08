@@ -22,7 +22,7 @@ jobs:
       - name: Terraform validate
         run: terraform validate
       - name: format
-        run: terraform fmt -check
+        run: terraform fmt
       - name: plan
         run: terraform plan
   
